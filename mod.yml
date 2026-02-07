@@ -67,3 +67,16 @@ assets:
     method: copy
     source:
     - name: gameplay/limi.bdx
+- name: obj/P_EX100.a.us
+  method: binarc
+  multi: 
+  - name: obj/P_EX100_NM.a.us
+  - name: obj/P_EX100_XM.a.us
+  - name: obj/P_EX100_TR.a.us
+  - name: obj/P_EX100_WI.a.us
+  source:
+  - name: p_ex 
+    type: Pax
+    method: copy
+    source:
+    - name: gameplay/limi.pax
