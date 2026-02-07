@@ -67,3 +67,47 @@ assets:
     method: copy
     source:
     - name: gameplay/limi.bdx
+- name: obj/P_EX100.a.us
+  method: binarc
+  multi: 
+  - name: obj/P_EX100_NM.a.us
+  - name: obj/P_EX100_XM.a.us
+  - name: obj/P_EX100_TR.a.us
+  - name: obj/P_EX100_WI.a.us
+  source:
+  - name: p_ex 
+    type: Pax
+    method: copy
+    source:
+    - name: gameplay/limi.pax
+
+- name: remastered/obj/P_EX100.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_NM.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_XM.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_TR.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_WI.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+    type: internal
