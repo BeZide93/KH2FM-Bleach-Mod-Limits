@@ -10,19 +10,19 @@ assets:
     source:
       - name: ItemList.yml
         type: item
-- name: 00battle.bin
-  method: binarc
-  source:
-  - name: ptya #Change attack parameters
-    type: list
-    method: copy
-    source:
-      - name: ptya.list
-  - name: atkp #Buff Hurricane Winder
-    type: list
-    method: copy
-    source:
-      - name: atkp.list
+#- name: 00battle.bin
+#  method: binarc
+#  source:
+#  - name: ptya #Change attack parameters
+#    type: list
+#    method: copy
+#    source:
+#      - name: ptya.list
+#  - name: atkp #Buff Hurricane Winder
+#    type: list
+#    method: copy
+#    source:
+#      - name: atkp.list
 - name: msg/jp/sys.bar
   multi:
   - name: msg/us/sys.bar
@@ -76,7 +76,7 @@ assets:
   method: copy
   source:
   - name: gameplay\P_EX100.mset
-- name: obj\W_EX010.mset
-  method: copy
-  source:
-  - name: gameplay\W_EX010.mset
+#- name: obj\W_EX010.mset
+#  method: copy
+#  source:
+#  - name: gameplay\W_EX010.mset
