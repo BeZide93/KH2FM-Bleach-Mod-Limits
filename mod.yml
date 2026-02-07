@@ -5,10 +5,10 @@ assets:
   method: copy
   source:
   - name: gameplay\P_EX100.mset
-#- name: obj\W_EX010.mset
-#  method: copy
-#  source:
-#  - name: gameplay\W_EX010.mset
+- name: obj\W_EX010.mset
+  method: copy
+  source:
+  - name: gameplay\W_EX010.mset
 - name: 03system.bin
   method: binarc
   source:
