@@ -10,19 +10,19 @@ assets:
     source:
       - name: ItemList.yml
         type: item
-#- name: 00battle.bin
-#  method: binarc
-#  source:
-#  - name: ptya #Change attack parameters
-#    type: list
-#    method: copy
-#    source:
-#      - name: ptya.list
-#  - name: atkp #Buff Hurricane Winder
-#    type: list
-#    method: copy
-#    source:
-#      - name: atkp.list
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: ptya #Change attack parameters
+    type: list
+    method: copy
+    source:
+      - name: ptya.list
+  - name: atkp #Buff Hurricane Winder
+    type: list
+    method: copy
+    source:
+      - name: atkp.list
 - name: msg/jp/sys.bar
   multi:
   - name: msg/us/sys.bar
@@ -80,3 +80,123 @@ assets:
   method: copy
   source:
   - name: gameplay\W_EX010.mset
+- name: remastered/obj/P_EX100.a.us/-0.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-0.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-0.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-0.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-0.dds
+  method: copy
+  source:
+  - name: textures/-0.dds
+- name: remastered/obj/P_EX100.a.us/-1.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-1.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-1.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-1.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-1.dds
+  method: copy
+  source:
+  - name: textures/-1.dds
+- name: remastered/obj/P_EX100.a.us/-2.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-2.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-2.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-2.dds
+  method: copy
+  source:
+  - name: textures/-2.dds
+- name: remastered/obj/P_EX100.a.us/-3.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-3.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-3.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-3.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-3.dds
+  method: copy
+  source:
+  - name: textures/-3.dds
+- name: remastered/obj/P_EX100.a.us/-4.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-4.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-4.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-4.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-4.dds
+  method: copy
+  source:
+  - name: textures/-4.dds
+- name: remastered/obj/P_EX100.a.us/-5.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-5.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-5.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-5.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-5.dds
+  method: copy
+  source:
+  - name: textures/-5.dds
+- name: remastered/obj/P_EX100.a.us/-6.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-6.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-6.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-6.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-6.dds
+  method: copy
+  source:
+  - name: textures/-6.dds
+- name: remastered/obj/P_EX100.a.us/-7.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-7.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-7.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-7.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-7.dds
+  method: copy
+  source:
+  - name: textures/-7.dds
+- name: remastered/obj/P_EX100.a.us/-8.dds
+  platform: pc
+  multi:
+  - name: remastered/obj/P_EX100_NM.a.us/-8.dds
+  - name: remastered/obj/P_EX100_XM.a.us/-8.dds
+  - name: remastered/obj/P_EX100_TR.a.us/-8.dds
+  - name: remastered/obj/P_EX100_WI.a.us/-8.dds
+  method: copy
+  source:
+  - name: textures/-8.dds
+- name: remastered/obj/P_EX100.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_NM.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_XM.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_TR.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+    type: internal
+- name: remastered/obj/P_EX100_WI.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+    type: internal
